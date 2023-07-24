@@ -1,0 +1,493 @@
+<file fileType="DIC">
+  <data>
+    <translationDictionary>
+      <category id="States">
+ 
+		<!-- stavy nekonsolidovanych prvku -->
+ 
+        <entry id="Active">
+          <translation language="en">Active</translation>
+          <translation language="cz">Aktivní</translation>
+          <translation language="pl">Aktywne</translation>
+          <translation language="bg">Активен</translation>
+          <translation language="tr">Aktif</translation>
+          <translation language="sk">Aktívne</translation>
+        </entry>
+        <entry id="Inactive">
+          <translation language="en">Inactive</translation>
+          <translation language="cz">Neaktivní</translation>
+          <translation language="pl">Nieaktywne</translation>
+          <translation language="bg">Неактивен</translation>
+          <translation language="tr">Aktif Değil</translation>
+          <translation language="sk">Neaktívne</translation>
+        </entry>
+        <entry id="Passive">
+          <translation language="en">Passive</translation>
+          <translation language="cz">Pasivní</translation>
+          <translation language="pl">Bierne</translation>
+          <translation language="bg">Пасивен</translation>
+          <translation language="tr">Pasif</translation>
+          <translation language="sk">Pasívne</translation>
+        </entry>
+        <entry id="Error">
+          <translation language="en">Error</translation>
+          <translation language="cz">Chyba</translation>
+          <translation language="pl">Błąd</translation>
+          <translation language="tr">Hata</translation>
+          <translation language="sk">Chyba</translation>
+        </entry>
+        <entry id="Unknown">
+          <translation language="en">Unknown</translation>
+          <translation language="cz">Neznámý</translation>
+          <translation language="pl">Nieznany</translation>
+          <translation language="bg">Низвестен</translation>
+          <translation language="sk">Neznámý</translation>
+        </entry>                                                                                                                                 
+        <entry id="Offline">
+          <translation language="en">Source data not available</translation>
+          <translation language="cz">Zdrojová data nejsou k dispozici</translation>
+          <translation language="pl">Brak danych źródłowych</translation>
+          <translation language="tr">Kaynak Verisi Mevcut Değil</translation>
+          <translation language="sk">Zdrojové údaje nie sú k dispozícii</translation>
+        </entry>
+        <entry id="Off">
+          <translation language="en">Off</translation>
+          <translation language="cz">Vypnuto</translation>
+          <translation language="pl">Wyłączono</translation>
+          <translation language="bg">Изключено</translation>
+          <translation language="tr">Kapalı</translation>
+          <translation language="sk">Vypnuté</translation>
+        </entry>
+        <entry id="On">
+          <translation language="en">On</translation>
+          <translation language="cz">Zapnuto</translation>
+          <translation language="pl">Załączono</translation>
+          <translation language="bg">Включено</translation>
+          <translation language="sk">Zapnuté</translation>
+        </entry>
+        <entry id="Pm60">
+          <translation language="cz">Přerušovaný 60/min</translation>
+          <translation language="en">Intermittent 60/min</translation>
+          <translation language="pl">Miga 60/min</translation>
+          <translation language="tr">60 Dakika Aralıklı</translation>
+          <translation language="sk">Prerušovaný 60/min</translation>
+        </entry>
+        <entry id="One">
+          <translation language="cz">Poloha One</translation>
+          <translation language="en">Position One</translation>
+          <translation language="pl">Położenie pierwsze</translation>
+          <translation language="tr">Kaynak Verisi Mevcut Değil</translation>
+          <translation language="sk">Poloha One</translation>
+        </entry>
+        <entry id="Two">
+          <translation language="cz">Poloha Two</translation>
+          <translation language="en">Position Two</translation>
+          <translation language="pl">Położenie drugie</translation>
+          <translation language="tr">ikinci pozisyon</translation>
+          <translation language="sk">Poloha Two</translation>
+        </entry>
+        <entry id="Stop">
+          <translation language="cz">Vypnout stavění</translation>
+          <translation language="en">Stop setting</translation>
+          <translation language="pl">Wyłączyć przestawianie</translation>
+          <translation language="tr">Ayarı Durdur</translation>
+          <translation language="sk">Vypnúť stavanie</translation>
+        </entry>
+        <entry id="NoPosition">
+          <translation language="cz">Mezipoloha</translation>
+          <translation language="en">No position</translation>
+          <translation language="pl">Położenie pośrednie</translation>
+          <translation language="tr">Pozisyon Yok</translation>
+          <translation language="sk">Medzipoloha</translation>
+        </entry>
+        <entry id="Pm108">
+          <translation language="cz">Přerušovaný 108/min</translation>
+          <translation language="en">Intermittent 108/min</translation>
+          <translation language="pl">Miga 108/min</translation>
+          <translation language="tr">108 Dakika Aralıklı</translation>
+          <translation language="sk">Prerušovaný 108/min</translation>
+        </entry>
+        <entry id="Pm54">
+          <translation language="cz">Přerušovaný 54/min</translation>
+          <translation language="en">Intermittent 54/min</translation>
+          <translation language="pl">Miga 54/min</translation>
+          <translation language="tr">54 Dakika Aralıklı</translation>
+          <translation language="sk">Prerušovaný 54/min</translation>
+        </entry>
+        <entry id="Undefined">
+          <translation language="en">Undefined</translation>
+          <translation language="cz">Nedefinovaný</translation>
+          <translation language="pl">Niezdefiniowane</translation>
+          <translation language="tr">Belirsiz</translation>
+          <translation language="sk">Nedefinovaný</translation>
+        </entry>
+        
+        <entry id="Left">
+          <translation language="cz">Vlevo</translation>
+          <translation language="en">Left</translation>
+          <translation language="sk">Vľavo</translation>
+        </entry>
+        <entry id="Right">
+          <translation language="cz">Vpravo</translation>
+          <translation language="en">Right</translation>
+          <translation language="sk">Vpravo</translation>
+        </entry>
+        <entry id="OnRail">
+          <translation language="cz">Na koleji</translation>
+          <translation language="en">On the rail</translation>
+          <translation language="sk">Na koľaji</translation>
+        </entry>
+        <entry id="OffRail">
+          <translation language="cz">Sklopená</translation>
+          <translation language="en">Off the rail</translation>
+          <translation language="sk">Sklopená</translation>
+        </entry>
+        <entry id="LeftOnRail">
+          <translation language="cz">Výhybka vlevo, výkolejka na koleji</translation>
+          <translation language="en">Switch left, derailer on the rail</translation>
+          <translation language="sk">Výhybka vľavo, výkoľajka na koľaji</translation>
+        </entry>
+        <entry id="LeftOffRail">
+          <translation language="cz">Výhybka vlevo, výkolejka sklopená</translation>
+          <translation language="en">Switch left, derailer off the rail</translation>
+          <translation language="sk">Výhybka vľavo, výkoľajka sklopená</translation>
+        </entry>
+        <entry id="RightOnRail">
+          <translation language="cz">Výhybka vpravo, výkolejka na koleji</translation>
+          <translation language="en">Switch right, derailer on the rail</translation>
+          <translation language="sk">Výhybka vpravo, výkoľajka na koľaji</translation>
+        </entry>
+        <entry id="RightOffRail">
+          <translation language="cz">Výhybka vpravo, výkolejka sklopená</translation>
+          <translation language="en">Switch right, derailer off the rail</translation>
+          <translation language="sk">Výhybka vpravo, výkoľajka sklopená</translation>
+        </entry>
+        
+		<!-- stavy konsolidovanych prvku nevyskytujici se v nekonsolidovanych -->
+
+        <entry id="Testing">
+          <translation language="cz">Probíhá test</translation>
+          <translation language="en">Testing under way</translation>
+          <translation language="pl">W trakcie testu</translation>
+          <translation language="sk">Prebieha test</translation>
+        </entry>
+        <entry id="None">
+          <translation language="cz">žádný</translation>
+          <translation language="en">none</translation>
+          <translation language="bg">никакъв</translation>
+          <translation language="pl">Brak</translation>
+          <translation language="tr">yok</translation>
+          <translation language="sk">žiadny</translation>
+        </entry>
+        <entry id="TE">
+          <translation language="cz">TE</translation>
+          <translation language="en">TE</translation>
+          <translation language="pl">TE</translation>
+          <translation language="tr">TE</translation>
+          <translation language="sk">TE</translation>
+        </entry>
+        <entry id="TI">
+          <translation language="cz">TI</translation>
+          <translation language="en">TI</translation>
+          <translation language="pl">TI</translation>
+          <translation language="tr">TI</translation>
+          <translation language="sk">TI</translation>
+        </entry>
+        <entry id="M">
+          <translation language="cz">M</translation>
+          <translation language="en">M</translation>
+          <translation language="pl">M</translation>
+          <translation language="tr">M</translation>
+          <translation language="sk">M</translation>
+        </entry>
+        <entry id="Different">
+          <translation language="cz">Rozdílný</translation>
+          <translation language="en">Different</translation>
+          <translation language="pl">Niezgodne</translation>
+          <translation language="tr">Farklı</translation>
+          <translation language="sk">Rozdielny</translation>
+        </entry>
+        
+		<!-- stavy ostatnich D-prvku -->
+		<!-- kody pro lightEnh a safeOutEnh - jsou vubec jeste potreba? -->
+        
+        <entry id="0">
+          <translation language="en">Code 0</translation>
+          <translation language="cz">Kód 0</translation>
+          <translation language="bg">Код 0</translation>
+          <translation language="sk">Kód 0</translation>
+        </entry>
+        <entry id="1">
+          <translation language="en">Code 1</translation>
+          <translation language="cz">Kód 1</translation>
+          <translation language="bg">Код 1</translation>
+          <translation language="sk">Kód 1</translation>
+        </entry>
+        <entry id="2">
+          <translation language="en">Code 2</translation>
+          <translation language="cz">Kód 2</translation>
+          <translation language="bg">Код 2</translation>
+          <translation language="sk">Kód 2</translation>
+        </entry>
+        <entry id="3">
+          <translation language="en">Code 3</translation>
+          <translation language="cz">Kód 3</translation>
+          <translation language="bg">Код 3</translation>
+          <translation language="sk">Kód 3</translation>
+        </entry>
+        <entry id="4">
+          <translation language="en">Code 4</translation>
+          <translation language="cz">Kód 4</translation>
+          <translation language="bg">Код 4</translation>
+          <translation language="sk">Kód 4</translation>
+        </entry>
+        <entry id="5">
+          <translation language="en">Code 5</translation>
+          <translation language="cz">Kód 5</translation>
+          <translation language="bg">Код 5</translation>
+          <translation language="sk">Kód 5</translation>
+        </entry>
+        <entry id="6">
+          <translation language="en">Code 6</translation>
+          <translation language="cz">Kód 6</translation>
+          <translation language="bg">Код 6</translation>
+          <translation language="sk">Kód 6</translation>
+        </entry>
+        <entry id="12">
+          <translation language="en">Code 12</translation>
+          <translation language="cz">Kód 12</translation>
+          <translation language="bg">Код 12</translation>
+          <translation language="sk">Kód 12</translation>
+        </entry>
+        <entry id="13">
+          <translation language="en">Code 13</translation>
+          <translation language="cz">Kód 13</translation>
+          <translation language="bg">Код 13</translation>
+          <translation language="sk">Kód 13</translation>
+        </entry>
+        <entry id="15">
+          <translation language="en">Code 15</translation>
+          <translation language="cz">Kód 15</translation>
+          <translation language="bg">Код 15</translation>
+          <translation language="sk">Kód 15</translation>
+        </entry>
+
+		<!-- DTester -->
+        
+        <entry id="TestIdle">
+          <translation language="en">test not required (previous test finished)</translation>
+          <translation language="cz">test není požadován (předchozí test ukončen)</translation>
+          <translation language="pl">test nie jest wymagany (zakończono poprzedni test)</translation>
+          <translation language="tr">Teste gerek yok (önceki testler tamamlandı)</translation>
+          <translation language="sk">test nie je požadovaný (predchádzajúci test ukončený)</translation>
+        </entry>
+        <entry id="TestReq">
+          <translation language="en">new test requested</translation>
+          <translation language="cz">požadováno zahájení nového testu</translation>
+          <translation language="pl">żądanie rozpoczęcia nowego testu</translation>
+          <translation language="tr">Yeni Test İstendi</translation>
+          <translation language="sk">požadované spustenie nového testu</translation>
+        </entry>
+        <entry id="TestStartA">
+          <translation language="en">starting test A</translation>
+          <translation language="cz">zahájení testu A</translation>
+          <translation language="pl">rozpoczęcie testu (A)</translation>
+          <translation language="tr">Test A Başlangıç Testi</translation>
+          <translation language="sk">zahájenie testu A</translation>
+        </entry>
+        <entry id="TestingA">
+          <translation language="en">test A started</translation>
+          <translation language="cz">probíhá test A</translation>
+          <translation language="pl">test w trakcie wykonywania (A)</translation>
+          <translation language="tr">Test A Başlatıldı</translation>
+          <translation language="sk">prebieha test A</translation>
+        </entry>
+        <entry id="TestStartB">
+          <translation language="en">starting test B</translation>
+          <translation language="cz">zahájení testu B</translation>
+          <translation language="pl">rozpoczęcie testu (B)</translation>
+          <translation language="tr">Test B Başlangıç Testi</translation>
+          <translation language="sk">zahájenie testu B</translation>
+        </entry>
+        <entry id="TestingB">
+          <translation language="en">test B started</translation>
+          <translation language="cz">probíhá test B</translation>
+          <translation language="pl">test w trakcie wykonywania (B)</translation>
+          <translation language="tr">Test B Başlatıldı</translation>
+          <translation language="sk">prebieha test B</translation>
+        </entry>
+        <entry id="Init">
+          <translation language="en">initialization</translation>
+          <translation language="cz">inicializace</translation>
+          <translation language="pl">inicjalizacja</translation>
+          <translation language="tr">Başlatma</translation>
+          <translation language="sk">inicializácia</translation>
+        </entry>
+
+		<!-- DRoute -->
+        
+        <entry id="RouteIdle">
+          <translation language="en">idle</translation>
+          <translation language="cz">neaktivní</translation>
+          <translation language="pl">nieaktywny</translation>
+          <translation language="sk">neaktívne</translation>
+        </entry>
+        <entry id="RouteSetting">
+          <translation language="en">setting, cannot enable yet</translation>
+          <translation language="cz">stavění, nejsou splněny podmínky pro povolení</translation>
+          <translation language="pl">nastawianie przebiegu, warunki zezwolenia na jazdę nie są spełnione</translation>
+          <translation language="sk">stavanie, nie sú splnené podmienky pre povolenie</translation>
+        </entry>
+        <entry id="RouteSet">
+          <translation language="en">set</translation>
+          <translation language="cz">postavena</translation>
+          <translation language="pl">przebieg ustawiony</translation>
+          <translation language="sk">postavená</translation>
+        </entry>
+        <entry id="RouteEnabling">
+          <translation language="en">enabled</translation>
+          <translation language="cz">povolena</translation>
+          <translation language="pl">zezwolenie na jazdę</translation>
+          <translation language="sk">povolená</translation>
+        </entry>
+        <entry id="RouteAutoCancelling">
+          <translation language="en">train passing (signal off)</translation>
+          <translation language="cz">jízda vlaku (návěstidlo zhasnuto)</translation>
+          <translation language="pl">jazda pociągu (semafor wygasł)</translation>
+          <translation language="sk">jazda vlaku (návestidlo nesvieti)</translation>
+        </entry>
+        <entry id="RouteBlocking">
+          <translation language="en">blocked</translation>
+          <translation language="cz">zablokována</translation>
+          <translation language="pl">zablokowany</translation>
+          <translation language="sk">zablokována</translation>
+        </entry>
+        <entry id="RouteTimeCancelling">
+          <translation language="en">time cancelling</translation>
+          <translation language="cz">časové rušení</translation>
+          <translation language="pl">zwolnienie czasowe</translation>
+          <translation language="sk">časové rušenie</translation>
+        </entry>
+        <entry id="RouteEmergencyCancelling">
+          <translation language="en">emergency cancelling</translation>
+          <translation language="cz">nouzové rušení</translation>
+          <translation language="pl">zwolnienie doraźne</translation>
+          <translation language="sk">núdzové rušenie</translation>
+        </entry>
+
+		<!-- DStatus -->
+        <entry id="Ok">
+          <translation language="cz">OK</translation>
+          <translation language="en">OK</translation>
+          <translation language="pl">OK</translation>
+          <translation language="tr">OK</translation>
+          <translation language="sk">OK</translation>
+        </entry>
+        <entry id="Info">
+          <translation language="cz">Informace</translation>
+          <translation language="en">Info</translation>
+          <translation language="pl">Informacja</translation>
+          <translation language="tr">Informacja</translation>
+          <translation language="sk">Informácie</translation>
+        </entry>
+        <entry id="Warning">
+          <translation language="cz">Upozornění</translation>
+          <translation language="en">Warning</translation>
+          <translation language="pl">Ostrzeżenie</translation>
+          <translation language="tr">Uyarı</translation>
+          <translation language="sk">Upozornenie</translation>
+        </entry>
+
+		<!-- DThreadState -->
+        <entry id="OK">
+          <translation language="cz">OK</translation>
+          <translation language="en">OK</translation>
+          <translation language="pl">OK</translation>
+          <translation language="tr">OK</translation>
+          <translation language="sk">OK</translation>
+        </entry>
+        <entry id="ThreadError">
+          <translation language="cz">přepálení hlavního vlákna</translation>
+          <translation language="en">main thread error</translation>
+          <translation language="sk">prepálenia hlavného vlákna</translation>
+        </entry>
+        <entry id="BothThreadError">
+          <translation language="cz">přepálení obou vláken</translation>
+          <translation language="en">both threads error</translation>
+          <translation language="sk">prepálenia oboch vlákien</translation>
+        </entry>
+        <entry id="ShortCircuit">
+          <translation language="cz">zkrat</translation>
+          <translation language="en">short circuit</translation>
+          <translation language="sk">skrat</translation>
+        </entry>
+
+
+		<!-- DDcCommandProcess -->
+        <entry id="Apply">
+          <translation language="cz">povel potvrzen</translation>
+          <translation language="en">command confirmed</translation>
+          <translation language="pl">polecenie zrozumiane</translation>
+          <translation language="tr">Komut Onaylandi</translation>
+          <translation language="sk">povel potvrdený</translation>
+        </entry>
+        <entry id="Cancel">
+          <translation language="cz">povel zrušen</translation>
+          <translation language="en">command cancelled</translation>
+          <translation language="pl">polecenie anulowane</translation>
+          <translation language="tr">Komut İptal Edildi</translation>
+          <translation language="sk">povel zrušený</translation>
+        </entry>
+
+        <!-- DLoggedUser -->
+        <entry id="NoUserLogged">
+          <translation language="cz">žádný</translation>
+          <translation language="en">none</translation>
+          <translation language="pl">brak</translation>
+          <translation language="tr">Yok</translation>
+          <translation language="sk">žiadny</translation>
+        </entry>
+
+		<!-- DEngineCurrent -->
+
+        <entry id="CurrentOff">
+          <translation language="cz">neteče proud</translation>
+          <translation language="en">current not detected</translation>
+          <translation language="sk">netečie prúd</translation>
+        </entry>
+        <entry id="CurrentOn">
+          <translation language="cz">teče proud</translation>
+          <translation language="en">current detected</translation>
+          <translation language="sk">tečie prúd</translation>
+        </entry>
+
+		<!-- D*Free, D*Occupied -->
+        <entry id="Free">
+          <translation language="cz">volno</translation>
+          <translation language="en">free</translation>
+          <translation language="pl">zajęty</translation>
+          <translation language="sk">voľno</translation>
+        </entry>
+        <entry id="NotFree">
+          <translation language="cz">nikoliv volno</translation>
+          <translation language="en">not free</translation>
+          <translation language="pl">niezajęty</translation>
+          <translation language="sk">nie voľno</translation>
+        </entry>
+        <entry id="Occupied">
+          <translation language="cz">obsazeno</translation>
+          <translation language="en">occupied</translation>
+          <translation language="pl">zajęty</translation>
+          <translation language="sk">obsadené</translation>
+        </entry>
+        <entry id="NotOccupied">
+          <translation language="cz">nikoliv obsazeno</translation>
+          <translation language="en">not occupied</translation>
+          <translation language="pl">niezajęty</translation>
+          <translation language="sk">nie obsadené</translation>
+        </entry>
+
+      </category>
+    </translationDictionary>
+  </data>
+</file>
